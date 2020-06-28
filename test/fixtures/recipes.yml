@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  yield: 1
+  type: 
+  equipment: MyText
+  ingredients: MyText
+  instructions: MyText
+  date_created: 2020-06-28 20:53:01
+
+two:
+  name: MyString
+  yield: 1
+  type: 
+  equipment: MyText
+  ingredients: MyText
+  instructions: MyText
+  date_created: 2020-06-28 20:53:01
