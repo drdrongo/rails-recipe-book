@@ -1,0 +1,16 @@
+<h1><%= @recipe.name %></h1>
+<p>Serves <%= @recipe.yield %></p>
+
+<p><%= @recipe.cuisine %> cuisine</p>
+
+<h4>Equipment</h4>
+<p><%= @recipe.equipment %></p>
+
+<h4>Ingredients</h4>
+<p><%= @recipe.ingredients %></p>
+
+<h4>Instructions</h4>
+<p><%= @recipe.instructions %></p>
+
+<%= link_to "Update recipe", edit_recipe_path,  class: 'btn btn-outline-success w-100 mt-3'%>
+<%= link_to "Back to home", recipes_path,  class: 'btn btn-outline-primary w-100 mt-3'%>

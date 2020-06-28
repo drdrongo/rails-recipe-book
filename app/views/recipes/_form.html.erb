@@ -1,0 +1,10 @@
+<%= simple_form_for recipe do |f| %>
+  <%= f.input :name %>
+  <%= f.input :cuisine %>
+  <%= f.input :yield %>
+  <%= f.input :equipment %>
+  <%= f.input :ingredients, class: 'h-100' %>
+  <%= f.input :instructions %>
+
+  <%= f.button :submit, class: 'btn btn-outline-success w-100' %>
+<% end %>

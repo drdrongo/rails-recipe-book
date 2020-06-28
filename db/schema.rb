@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2020_06_28_115301) do
   create_table "recipes", force: :cascade do |t|
     t.string "name"
     t.integer "yield", default: 1
-    t.string "type"
+    t.string "cuisine"
     t.text "equipment"
     t.text "ingredients"
     t.text "instructions"
